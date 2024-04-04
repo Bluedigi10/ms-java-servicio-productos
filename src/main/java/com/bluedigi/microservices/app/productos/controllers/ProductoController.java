@@ -1,4 +1,4 @@
-package com.bluedigi.microservices.productos.controllers;
+package com.bluedigi.microservices.app.productos.controllers;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bluedigi.microservices.productos.models.entity.Producto;
-import com.bluedigi.microservices.productos.models.service.IProductoService;
+import com.bluedigi.microservices.app.productos.models.entity.Producto;
+import com.bluedigi.microservices.app.productos.models.service.IProductoService;
 
 @RestController
 public class ProductoController {

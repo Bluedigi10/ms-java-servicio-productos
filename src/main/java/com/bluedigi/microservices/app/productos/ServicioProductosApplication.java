@@ -1,4 +1,4 @@
-package com.bluedigi.microservices.productos;
+package com.bluedigi.microservices.app.productos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

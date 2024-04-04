@@ -1,4 +1,4 @@
-package com.bluedigi.microservices.productos.models.service;
+package com.bluedigi.microservices.app.productos.models.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bluedigi.microservices.productos.models.dao.ProductoDao;
-import com.bluedigi.microservices.productos.models.entity.Producto;
+import com.bluedigi.microservices.app.productos.models.dao.ProductoDao;
+import com.bluedigi.microservices.app.productos.models.entity.Producto;
 
 @Service
 public class ProductoServiceImpl implements IProductoService{

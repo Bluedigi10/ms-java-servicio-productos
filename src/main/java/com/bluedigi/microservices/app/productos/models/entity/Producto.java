@@ -1,4 +1,4 @@
-package com.bluedigi.microservices.productos.models.entity;
+package com.bluedigi.microservices.app.productos.models.entity;
 
 import java.io.Serializable;
 import java.util.Date;
